@@ -21,7 +21,8 @@ img {
   width: 1158px;
   padding-left: 15px;
   padding-right: 15px;
-  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* ------------Header-------------- */
@@ -301,9 +302,6 @@ img {
   padding: 100px 0;
   background-color: #2e2f42;
 }
-.footer .container {
-  display: inline-block;
-}
 .logo-footer {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -315,6 +313,7 @@ img {
   text-transform: uppercase;
   color: #4d5ae5;
   margin-bottom: 16px;
+  display: inline-block;
 }
 .logo-footer-s {
   color: #f4f4fd;
