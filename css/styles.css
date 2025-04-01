@@ -154,12 +154,14 @@ img {
 .advantages {
   margin-bottom: 8px;
 }
+.visually-hidden {
+}
 .main-advantages-list {
   padding: 156px 120px;
   display: flex;
+  flex-basis: calc((100% - 72px) / 4);
 }
 .main-advantages-item {
-  flex-basis: calc((100% - 72px) / 4);
 }
 .main-advantages-item:not(:last-child) {
   margin-right: 24px;
@@ -201,9 +203,9 @@ img {
 }
 .team-list {
   display: flex;
+  flex-basis: calc((100% - 72px) / 4);
 }
 .team-item {
-  flex-basis: calc((100% - 72px) / 4);
   background-color: #ffffff;
   border-radius: 0px 0px 4px 4px;
 }
@@ -255,10 +257,10 @@ img {
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
-  width: calc((100% - 48px) / 3);
 }
 .portfolio-item {
   background-color: #ffffff;
+  width: calc((100% - 48px) / 3);
 }
 .portfolio-item-box {
   padding: 32px 16px;
