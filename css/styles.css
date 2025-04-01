@@ -10,6 +10,17 @@ ol {
 a {
   text-decoration: none;
 }
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.container {
+  width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
 
 /* ------------Header-------------- */
 
@@ -26,6 +37,8 @@ a {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  padding-top: 25.5px;
+  padding-bottom: 25.5px;
 }
 .logo-header-s {
   color: #2e2f42;
@@ -38,6 +51,8 @@ a {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .navy-item {
 }
@@ -66,6 +81,8 @@ a {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .address-link {
   color: #434455;
@@ -92,6 +109,7 @@ a {
   letter-spacing: 0.02em;
   text-align: center;
   color: #ffffff;
+  padding: 472px 188px 472px 292px;
 }
 .button-slogan {
   font-weight: 500;
@@ -113,6 +131,7 @@ a {
 .advantages {
 }
 .main-advantages-list {
+  padding: 156px 120px;
 }
 .main-advantages-item {
 }
