@@ -155,7 +155,15 @@ img {
   margin-bottom: 8px;
 }
 .visually-hidden {
-  visibility: hidden;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
 }
 .main-advantages-list {
   padding: 156px 120px;
@@ -306,12 +314,10 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  display: flex;
   display: inline-block;
   margin-bottom: 16px;
 }
 .logo-footer-s {
-  display: inline-block;
   color: #f4f4fd;
 }
 .footer-text {
