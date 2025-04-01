@@ -169,11 +169,13 @@ img {
   padding: 156px 120px;
   display: flex;
 }
-.main-advantages-list:not(:last-child) {
+
+.main-advantages-item {
   margin-right: 24px;
+  width: calc((100% - 72px) / 4);
 }
 .main-advantages-item {
-  width: calc((100% - 72px) / 4);
+  margin-right: 0;
 }
 
 .main-advantages-title {
@@ -214,13 +216,15 @@ img {
 .team-list {
   display: flex;
 }
-.team-list:not(:last-child) {
-  margin-right: 24px;
-}
+
 .team-item {
+  margin-right: 24px;
   background-color: #ffffff;
   border-radius: 0px 0px 4px 4px;
   width: calc((100% - 72px) / 4);
+}
+.team-item:last-child {
+  margin-right: 0;
 }
 
 .team-item-box {
@@ -271,7 +275,7 @@ img {
 }
 .portfolio-item {
   background-color: #ffffff;
-  width: calc((100% - 120px) / 6);
+  width: calc((100% - 48px) / 3);
 }
 .portfolio-item-box {
   padding: 32px 16px;
