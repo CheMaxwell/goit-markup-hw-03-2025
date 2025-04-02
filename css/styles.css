@@ -3,11 +3,20 @@ body {
   color: #434455;
   background-color: #ffffff;
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
 ul,
 ol {
   list-style-type: none;
   margin: 0;
-  padding-left: 0;
+  padding: 0;
 }
 a {
   text-decoration: none;
@@ -15,14 +24,13 @@ a {
 img {
   display: block;
   max-width: 100%;
+  height: auto;
 }
 
 .container {
   width: 1158px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
+  padding: 0 15px;
+  margin: 0 auto;
 }
 
 /* ------------Header-------------- */
@@ -33,6 +41,7 @@ img {
 }
 .header .container {
   display: flex;
+  align-items: center;
 }
 .logo-header {
   font-family: "Raleway", sans-serif;
@@ -45,8 +54,7 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  padding-top: 25.5px;
-  padding-bottom: 25.5px;
+  padding: 24px 0;
 }
 .logo-header-s {
   color: #2e2f42;
@@ -56,23 +64,19 @@ img {
   align-items: center;
 }
 .navy-list {
-  font-weight: 500;
-  font-size: 16px;
-  padding-top: 24px;
-  padding-bottom: 24px;
   gap: 40px;
-  /* line-height: 24px; */
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
   display: flex;
+  align-items: center;
 }
 .navy-item {
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 .navy-item-link {
+  display: block;
   padding: 24px 0;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   color: #2e2f42;
 }
 .navy-item-link:hover,
@@ -81,30 +85,22 @@ img {
 }
 
 .address {
-  display: flex;
-  font-weight: 400;
-  font-size: 16px;
   font-style: normal;
-  /* line-height: 24px; */
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
+  margin-left: auto;
 }
 .address-list {
   display: flex;
-  font-weight: 400;
-  font-size: 16px;
-  /* line-height: 24px; */
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
+  align-items: center;
   gap: 40px;
 }
 .address-item {
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 .address-link {
+  display: block;
+  padding: 24px 0;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   color: #434455;
 }
 .address-link:hover,
@@ -119,19 +115,19 @@ img {
 
 .main-slogan {
   padding: 188px 0;
-
+  display: flex;
+  justify-content: center;
   background-color: #2e2f42;
 }
 .main-title {
   font-weight: 700;
   font-size: 56px;
   max-width: 496px;
+  text-align: center;
   /* line-height: 60px; */
   line-height: 1.07;
   letter-spacing: 0.02em;
-  text-align: center;
   color: #ffffff;
-  padding: 472px 188px 472px 292px;
 }
 .button-slogan {
   font-weight: 500;
@@ -248,7 +244,7 @@ img {
   text-align: center;
 }
 .portfolio {
-  padding: 120px 0 120px 0;
+  padding: 120px 0;
 }
 .portfolio-title {
   font-weight: 700;
